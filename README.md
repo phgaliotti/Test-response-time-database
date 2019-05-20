@@ -24,7 +24,7 @@ java -jar response-time-database.jar
 
 ## Exemplo preenchido para testes
 ```
-java -jar response-time-database.jar  --spring.datasource.driver-class-name="com.mysql.jdbc.Driver"  --spring.datasource.url=jdbc:mysql://localhost/bd_test --spring.datasource.data-password=password  --spring.datasource.data-username=root "select * from info"
+java -jar response-time-database.jar  --spring.datasource.driver-class-name="com.mysql.jdbc.Driver"  --spring.datasource.url=jdbc:mysql://localhost/bd_test --spring.datasource.data-password=password  --spring.datasource.data-username=root --bd.query="select * from info"
 ```
 
 ## Como executar:
