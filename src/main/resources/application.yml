@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: ${JDBC_DRIVER:com.mysql.jdbc.Driver} 
+    url: ${JDBC_URL:jdbc:mysql://localhost/new_bpm}  
+    data-password: ${JDBC_USERNAME:root}  
+    data-username: ${JDBC_PASSWORD:lecom}  
+
+server:
+  port: 8090
